@@ -5,9 +5,7 @@ Emacs Bookmarks
 Linux
 ----
 	cd ~/.emacs.d
-	mkdir ebm
-	cd ebm
-	git clone https://github.com/carrl/carrltest.git
+	git clone https://github.com/carrl/ebm.git
 
 
 .emacs
@@ -18,3 +16,8 @@ Linux
 
 	(global-set-key (kbd "<f2>") 'ebm-jump-to-next-bookmark-in-current-buffer)
 	(global-set-key (kbd "<C-f2>") 'ebm-set-bookmark)
+
+How to Use
+----
+	[Ctrl]+[F2] Set Bookmark
+	[F2] Jump to Next Bookmark

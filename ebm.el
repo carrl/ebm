@@ -84,7 +84,7 @@
   " jump to next bookmark "
   (interactive)
   (let ((cont t) (aitem nil) (alist nil) (poslist nil))
-    ;; find all register id in currect buffer, push to alist
+    ;; find all register id in current buffer, push to alist
     (dolist (aitem (copy-sequence register-alist))
       (cond
        ((markerp (cdr aitem))		;; markerp
