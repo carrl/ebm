@@ -19,5 +19,6 @@ Linux
 
 How to Use
 ----
-	[Ctrl]+[F2] Set Bookmark
-	[F2] Jump to Next Bookmark
+	[Ctrl]+[F2]: Set Bookmark 
+	if cursor in stored bookmark location, [Ctrl]+[F2]: Delete Bookmark
+	[F2]: Jump to Next Bookmark

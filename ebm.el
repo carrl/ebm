@@ -31,9 +31,8 @@
   " delete bookmark "
   (let ((alist nil) (result nil))
     (dolist (aitem (copy-sequence register-alist))
-      (if (< (car aitem) 27)
-	  (if (markerp (cdr aitem))
-	      (push aitem alist))))
+      (if (markerp (cdr aitem))
+	  (push aitem alist)))
     (dolist (aitem alist)
       (progn
 	(if (and 
